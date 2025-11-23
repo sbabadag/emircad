@@ -42,6 +42,7 @@ set(SOURCES
     src/BeamCommand.cpp
     src/ColumnCommand.cpp
     src/SlabCommand.cpp
+    src/AssemblyCommand.cpp
     src/CADController.cpp
     src/SteelProfile.cpp
     src/ProfileSelectionDialog.cpp
@@ -50,6 +51,7 @@ set(SOURCES
     src/TBeam.cpp
     src/TColumn.cpp
     src/TSlab.cpp
+    src/TAssembly.cpp
     src/PropertiesPanel.cpp
     src/WorkPlane.cpp
     src/WorkPlaneDialog.cpp
@@ -66,6 +68,7 @@ set(HEADERS
     include/BeamCommand.h
     include/ColumnCommand.h
     include/SlabCommand.h
+    include/AssemblyCommand.h
     include/CADController.h
     include/SteelProfile.h
     include/ProfileSelectionDialog.h
@@ -74,6 +77,7 @@ set(HEADERS
     include/TBeam.h
     include/TColumn.h
     include/TSlab.h
+    include/TAssembly.h
     include/PropertiesPanel.h
     include/WorkPlane.h
     include/WorkPlaneDialog.h
